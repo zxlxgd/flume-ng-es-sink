@@ -1,7 +1,8 @@
 第一种方式：最简单的方式，只需要修改406bug 外加flume配置就可以，不需要x-pack配置
 
   1.修改flume-ng-es-sink-1.9代码中rest client发送数据报406错误
-    + httpRequest.addHeader("Content-Type","application/json");
+  
+    httpRequest.addHeader("Content-Type","application/json");
 
   2.flume配置示例：
   
