@@ -4,7 +4,7 @@
     + httpRequest.addHeader("Content-Type","application/json");
 
   2.flume配置示例：
-
+    a1.sinks.e1.client = rest
     a1.sinks.e1.hostNames = http://elastic:XA&YtoOverseas@192.168.207.32:9200
   
 第二种方式（x-pack依赖）：
